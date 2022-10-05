@@ -13,7 +13,9 @@ public class CrmUser {
 	@Size(min=1, message="is required")
 	private String password;
 	
-	
+	public CrmUser() {
+		
+	}
 
 	public String getUserName() {
 		return userName;
