@@ -88,7 +88,7 @@
 									<a href="${updateLink}">Update</a>
 								</security:authorize>
 	
-								<security:authorize access="hasAnyRole('ADMIN', 'OWNER')">
+								<security:authorize access="hasAnyRole('ADMIN', 'OWNER', 'MANAGER')">
 									<a href="${deleteLink}"
 									   onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false"> Delete</a>
 								</security:authorize>

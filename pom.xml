@@ -13,7 +13,7 @@
 
   <properties>
     <springframework.version>5.3.13</springframework.version>
-    <springsecurity.version>5.7.3</springsecurity.version>
+    <springsecurity.version>5.6.0</springsecurity.version>
 
     <hibernate.version>5.2.12.Final</hibernate.version>
     <mysql.connector.version>8.0.28</mysql.connector.version>
@@ -77,7 +77,12 @@
       <version>1.2</version>
     </dependency>
 
-
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
     
 
     <!-- Spring Transactions -->
