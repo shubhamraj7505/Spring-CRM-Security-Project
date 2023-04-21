@@ -18,6 +18,7 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	// add a reference to our security data source
 	// use DataSource to access user accounts stored in db
+	// add a reference to our security data source
 	@Autowired
 	private DataSource securityDataSource;
 	
@@ -62,9 +63,3 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 		
 }
-
-
-
-
-
-
